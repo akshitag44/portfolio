@@ -9032,7 +9032,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-.blurredbackgroundblue {
+.background {
   background-image: url("Images/blurbackground.png");
   background-size: cover;
   color: black;
@@ -9044,54 +9044,20 @@ a.text-dark:hover, a.text-dark:focus {
     background-size: cover;
   
 }
-.blurredbackgroundblack {
-    background-image: url("Images/blurred background black.jpg");
+.backgroundgoldengate {
+  background-image: url("Images/goldengate.jpg");
   background-size: cover;
   color: black;
-  padding:14%;
+  padding:5%;
   
       background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   
 }
-.blurredbackgroundblack1 {
-    background-image: url("Images/blackblurred.jpg");
-  background-size: cover;
-  color: black;
-  padding:14%;
-  
-      background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-}
-.blurredbackgroundgreen {
-  background-image: url("Images/greenblurred.jpg");
-  background-size: cover;
-  color: black;
-  padding:16%;
-  
-      background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-}
-.blurredbackgroundorange {
-  background-image: url("Images/orangeblurred.jpg");
-  background-size: cover;
-  color: black;
-  padding:1%;
-  
-      background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-}
+
 .imgblur{
     -webkit-filter: blur(5px); 
       filter: blur(5px);
@@ -9107,17 +9073,12 @@ a.text-dark:hover, a.text-dark:focus {
     color:orange;
 }
 .backgroundblack{
-  background-color:green;
+  background-color:black;
 
 }
 .textwhite{
   color:white;
 }
-h1 {
-  font-family: "Times";
-
-}
-p {
-  font-family: "Times";
-
+.paddingjumbo{
+  padding-top:1%;
 }
