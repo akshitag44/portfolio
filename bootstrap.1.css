@@ -9057,6 +9057,41 @@ a.text-dark:hover, a.text-dark:focus {
     
   
 }
+.aboutmeblurred{
+  background-image: url("Images/blackblurred.jpg");
+  background-size: cover;
+  color: black;
+  padding:14%;
+  
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectsblurred{
+  background-image: url("Images/greenblurred.jpg");
+  background-size: cover;
+  color: black;
+  padding:14%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactblurred{
+  background-image: url("Images/blurred background black.jpg");
+  background-size: cover;
+  color: black;
+  padding:5%;
+  
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .imgblur{
     -webkit-filter: blur(5px); 
