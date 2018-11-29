@@ -9110,7 +9110,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url("Images/beach.jpg");
   background-size: cover;
   color: black;
-  padding:11.55%;
+  padding:6%;
   
       background-attachment: fixed;
     background-position: center;
@@ -9142,6 +9142,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .paddingjumbo{
   padding-top:1%;
+}
+.resumepaddingjumbo{
+  padding-top:4%;
 }
 p {
   font-family: "Gotham"
