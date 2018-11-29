@@ -3875,6 +3875,10 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  z-index: 10000;
+   position: fixed;
+   top: 0px;
+   width: 100%;
 }
 
 .nav-link {
@@ -9032,8 +9036,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-.background {
-  background-image: url("Images/blurbackground.png");
+.homebackground {
+  background-image: url("Images/sunset.jpg");
   background-size: cover;
   color: black;
   padding:14%;
@@ -9057,11 +9061,22 @@ a.text-dark:hover, a.text-dark:focus {
     
   
 }
-.aboutmeblurred{
-  background-image: url("Images/blackblurred.jpg");
+.aboutmebackground{
+  background-image: url("Images/nightbayarea.jpg");
   background-size: cover;
   color: black;
-  padding:14%;
+  padding:12%;
+  
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutmebackground1{
+  background-image: url("Images/nightbayarea.jpg");
+  background-size: cover;
+  color: black;
+  padding:6%;
   
       background-attachment: fixed;
     background-position: center;
@@ -9069,22 +9084,33 @@ a.text-dark:hover, a.text-dark:focus {
     background-size: cover;
 }
 
-.projectsblurred{
-  background-image: url("Images/greenblurred.jpg");
+.projectsbackground{
+  background-image: url("Images/bayareasunset.jpg");
   background-size: cover;
   color: black;
-  padding:14%;
+  padding:5%;
   
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.contactblurred{
-  background-image: url("Images/blurred background black.jpg");
+.contactbackground{
+  background-image: url("Images/beach.jpg");
   background-size: cover;
   color: black;
-  padding:5%;
+  padding:24.5%;
+  
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactbackground1{
+  background-image: url("Images/beach.jpg");
+  background-size: cover;
+  color: black;
+  padding:11.55%;
   
       background-attachment: fixed;
     background-position: center;
@@ -9116,4 +9142,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .paddingjumbo{
   padding-top:1%;
+}
+p {
+  font-family: "Gotham"
+}
+h1 {
+  font-family: "Gotham"
+}
+h2 {
+  font-family: "Gotham"
 }
