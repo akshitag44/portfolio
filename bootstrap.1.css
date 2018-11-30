@@ -9076,7 +9076,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url("Images/nightbayarea.jpg");
   background-size: cover;
   color: black;
-  padding:6%;
+  padding:10%;
   
       background-attachment: fixed;
     background-position: center;
@@ -9091,6 +9091,39 @@ a.text-dark:hover, a.text-dark:focus {
   padding:5%;
   
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projectsbackground1{
+  background-image: url("Images/bayareasunset.jpg");
+  background-size: cover;
+  color: black;
+  padding:10%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.resumebackground{
+  background-image: url("Images/pinksunset.jpg");
+  background-size: cover;
+  color: black;
+  padding:13%;
+  
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.resumebackground1{
+  background-image: url("Images/pinksunset.jpg");
+  background-size: cover;
+  color: black;
+  padding:10%;
+  
+      background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9134,7 +9167,7 @@ a.text-dark:hover, a.text-dark:focus {
     color:orange;
 }
 .backgroundblack{
-  background-color:black;
+  background-color:#1c1b1b;
 
 }
 .textwhite{
@@ -9144,7 +9177,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top:1%;
 }
 .resumepaddingjumbo{
-  padding-top:4%;
+  padding-top:6%;
 }
 p {
   font-family: "Gotham"
@@ -9153,5 +9186,8 @@ h1 {
   font-family: "Gotham"
 }
 h2 {
+  font-family: "Gotham"
+}
+h3 {
   font-family: "Gotham"
 }
